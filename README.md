@@ -87,7 +87,7 @@ This project doesn't require any prequesites or dependenscies and you can view i
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/salahshallpy/Mapty.git
+   git clone https://github.com/SalahShallapy/Mapty
    ```
 2. open `index.html` file
 

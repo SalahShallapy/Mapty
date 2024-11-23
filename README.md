@@ -8,7 +8,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="./ImgsAndCharts/logo.png" alt="Logo" height="75">
+    <a href="https://mapty.netlify.app/">
+      <img src="./ImgsAndCharts/logo.png" alt="Logo" height="75">
+    </a>
 
 <h1>Mapty</h1>
 

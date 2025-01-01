@@ -8,64 +8,25 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="https://mapty.netlify.app/">
-      <img src="./ImgsAndCharts/logo.png" alt="Logo" height="75">
-    </a>
-
-<h1>Mapty</h1>
+  <a href="https://mapty.netlify.app/">
+    <img src="./ImgsAndCharts/logo.png" alt="Logo" height="80"  >
+  </a>
+  <h1 align="center">Mapty</h1>
 
   <p align="center">
     <a href="https://mapty.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/SalahShallapy/Mapty/issues">Report Bug</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#flowchart">Flowchart</a></li>
-        <li><a href="#architecture">Architecture</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+Mapty is a geolocation-based workout tracking application that allows users to log their running and cycling activities. Built with JavaScript and the Leaflet.js library, it provides an interactive map to record workout details such as distance, duration, pace, and elevation gain. Users can visually track their activities, store data locally, and view a list of all workouts.
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
-
-workouts logging page for Cycling and Running using map from [Leaflet library](https://leafletjs.com/SlavaUkraini/index.html)
-
-- Features :
-  - Display location on map
-  - Submit workouts on any location on the map
-  - Select workout type : (running / cycling)
-  - Render workout on the map
-  - User's workouts are saved using `local-storage` API
-  - Reset button to delete all user's data
+## Project Overview
 
 ![mapty preview](./ImgsAndCharts/overview.png)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Built With
-
-- HTML
-- CSS
-- JavaScript
-- Leaflet library
 
 ### Flowchart
 
@@ -75,27 +36,59 @@ workouts logging page for Cycling and Running using map from [Leaflet library](h
 
 <img src='./ImgsAndCharts/Mapty-architecture-final.png' alt='architecture' >
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Features:
 
-<!-- GETTING STARTED -->
+- Display location on map
+- Submit workouts on any location on the map
+- Select workout type : (running / cycling)
+- Logs running and cycling workouts with distance, duration, and optional metrics (cadence or elevation gain).
+- Interactive map using Leaflet.js for selecting workout locations.
+- Auto-generates workout descriptions based on date and type.
+- Displays workouts as markers on the map with detailed popups.
+- Renders workout details in a list view with activity icons.
+- Animates to specific workout locations on click.
+- Stores all workout data in local storage for persistence.
 
-## Getting Started
+## Usage:
 
-This project doesn't require any prequesites or dependenscies and you can view it online using this [demo](https://mapty.netlify.app/).
+1.  Open the app and allow geolocation access to display your current location.
+2.  Click on the map to open the workout form.
+3.  Enter workout details:
+    - Select type: Running or Cycling.
+    - Input distance (km) and duration (min).
+    - Optionally input cadence (spm) for running or elevation gain (m) for cycling.
+4.  Submit the form to log the workout.
+5.  View logged workouts in the list and as markers on the map.
+6.  Click on a workout in the list to animate to its location.
 
-> To get a local copy up and running follow these simple steps :
+```
+Mapty
+│      .prettierrc
+│      index.html
+│      README.md
+│      style.css
+│      script.js
+│
+└─── ImgsAndCharts -----> all images
+```
 
-### Installation
+## Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/SalahShallapy/Mapty
+To get started with the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SalahShallapy/Hold-N-Roll
    ```
-2. open `index.html` file
+2. Open the Project
+   Navigate to the project folder and open the index.html file in your preferred web browser to start playing.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+3. Requirements
+   No additional dependencies are required. The game runs entirely in the browser using vanilla JavaScript, HTML, CSS and you can view it online using this [demo](https://mapty.netlify.app/)
 
-<!-- CONTRIBUTING -->
+## Note
+
+- workouts logging page for Cycling and Running using map from [Leaflet library](https://leafletjs.com/SlavaUkraini/index.html)
 
 ## Contributing
 

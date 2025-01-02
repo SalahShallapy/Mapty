@@ -61,6 +61,8 @@ Mapty is a geolocation-based workout tracking application that allows users to l
 5.  View logged workouts in the list and as markers on the map.
 6.  Click on a workout in the list to animate to its location.
 
+## Project Structure
+
 ```
 Mapty
 │      .prettierrc

@@ -86,7 +86,7 @@ To get started with the project locally:
    Navigate to the project folder and open the index.html file in your preferred web browser to start playing.
 
 3. Requirements
-   No additional dependencies are required. The game runs entirely in the browser using vanilla JavaScript, HTML, CSS and you can view it online using this [demo](https://mapty.netlify.app/)
+   No additional dependencies are required. The game project entirely in the browser using vanilla JavaScript, HTML, CSS and you can view it online using this [demo](https://mapty.netlify.app/)
 
 ## Note
 

@@ -71,7 +71,7 @@ Mapty
 │      style.css
 │      script.js
 │
-└─── ImgsAndCharts ------> all images
+└─── ImgsAndCharts -----> all images
 ```
 
 ## Installation
